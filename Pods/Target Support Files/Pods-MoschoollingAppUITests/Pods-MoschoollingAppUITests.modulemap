@@ -1,0 +1,6 @@
+framework module Pods_MoschoollingAppUITests {
+  umbrella header "Pods-MoschoollingAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
