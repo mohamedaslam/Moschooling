@@ -22,6 +22,9 @@
 		AE2A924A1FD97C960006E624 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A92491FD97C960006E624 /* AttendanceViewController.swift */; };
 		AE2A924C1FD97CB30006E624 /* SyllabusTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A924B1FD97CB30006E624 /* SyllabusTrackerViewController.swift */; };
 		AE2A924E1FD97CD00006E624 /* AssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A924D1FD97CD00006E624 /* AssignmentViewController.swift */; };
+		AE324D7A2032E2B400F53E68 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE324D792032E2B400F53E68 /* NetworkManager.swift */; };
+		AE324D7C2032E2C300F53E68 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE324D7B2032E2C300F53E68 /* APIRequest.swift */; };
+		AE6632D62011D46500B032B4 /* VehicleLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6632D52011D46500B032B4 /* VehicleLocationTableViewCell.swift */; };
 		AE6667861FE40047009A42F7 /* SyllabusTrackerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6667851FE40047009A42F7 /* SyllabusTrackerTableViewCell.swift */; };
 		AE6667881FE40C14009A42F7 /* AssignmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6667871FE40C14009A42F7 /* AssignmentTableViewCell.swift */; };
 		AE7557011FDA4E16000F2178 /* AcademicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7557001FDA4E16000F2178 /* AcademicViewController.swift */; };
@@ -29,6 +32,9 @@
 		AE7557071FDA531D000F2178 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7557031FDA531C000F2178 /* MenuViewController.swift */; };
 		AE7557081FDA531D000F2178 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7557041FDA531C000F2178 /* HomeVC.swift */; };
 		AE7557091FDA531D000F2178 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7557051FDA531D000F2178 /* PlayVC.swift */; };
+		AE9DD1C02010A1A300EA010F /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DD1BF2010A1A300EA010F /* UserDetail.swift */; };
+		AE9DD1C22010A1DE00EA010F /* DriverData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DD1C12010A1DE00EA010F /* DriverData.swift */; };
+		AE9DD1C42010A23C00EA010F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE9DD1C32010A23C00EA010F /* GoogleService-Info.plist */; };
 		AED0B3D81FE3B04300E2D6C1 /* Schoolbus.png in Resources */ = {isa = PBXBuildFile; fileRef = AED0B3D71FE3B04200E2D6C1 /* Schoolbus.png */; };
 		AED0B3DC1FE3B39B00E2D6C1 /* Drivermen.png in Resources */ = {isa = PBXBuildFile; fileRef = AED0B3D91FE3B39900E2D6C1 /* Drivermen.png */; };
 		AED0B3DD1FE3B39B00E2D6C1 /* Bus.png in Resources */ = {isa = PBXBuildFile; fileRef = AED0B3DA1FE3B39A00E2D6C1 /* Bus.png */; };
@@ -79,6 +85,9 @@
 		AE2A92491FD97C960006E624 /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
 		AE2A924B1FD97CB30006E624 /* SyllabusTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusTrackerViewController.swift; sourceTree = "<group>"; };
 		AE2A924D1FD97CD00006E624 /* AssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentViewController.swift; sourceTree = "<group>"; };
+		AE324D792032E2B400F53E68 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AE324D7B2032E2C300F53E68 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		AE6632D52011D46500B032B4 /* VehicleLocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleLocationTableViewCell.swift; sourceTree = "<group>"; };
 		AE6667851FE40047009A42F7 /* SyllabusTrackerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusTrackerTableViewCell.swift; sourceTree = "<group>"; };
 		AE6667871FE40C14009A42F7 /* AssignmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTableViewCell.swift; sourceTree = "<group>"; };
 		AE7557001FDA4E16000F2178 /* AcademicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +95,10 @@
 		AE7557031FDA531C000F2178 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		AE7557041FDA531C000F2178 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		AE7557051FDA531D000F2178 /* PlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		AE9DD1BA2010A09200EA010F /* Moschooling-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moschooling-Bridge-Header.h"; sourceTree = "<group>"; };
+		AE9DD1BF2010A1A300EA010F /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		AE9DD1C12010A1DE00EA010F /* DriverData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverData.swift; sourceTree = "<group>"; };
+		AE9DD1C32010A23C00EA010F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AED0B3D71FE3B04200E2D6C1 /* Schoolbus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schoolbus.png; sourceTree = "<group>"; };
 		AED0B3D91FE3B39900E2D6C1 /* Drivermen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drivermen.png; sourceTree = "<group>"; };
 		AED0B3DA1FE3B39A00E2D6C1 /* Bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bus.png; sourceTree = "<group>"; };
@@ -159,6 +172,10 @@
 			isa = PBXGroup;
 			children = (
 				AE2A92151FD97B360006E624 /* AppDelegate.swift */,
+				AE9DD1BA2010A09200EA010F /* Moschooling-Bridge-Header.h */,
+				AE9DD1C32010A23C00EA010F /* GoogleService-Info.plist */,
+				AE9DD1BF2010A1A300EA010F /* UserDetail.swift */,
+				AE9DD1C12010A1DE00EA010F /* DriverData.swift */,
 				AE6667801FE3F3D3009A42F7 /* Model */,
 				AE6667811FE3F3DF009A42F7 /* View */,
 				AE6667821FE3F3E7009A42F7 /* Controller */,
@@ -211,6 +228,7 @@
 				AE2A92431FD97C530006E624 /* AccessCodeViewController.swift */,
 				AE2A92451FD97C5E0006E624 /* LoginViewController.swift */,
 				AE2A92471FD97C7D0006E624 /* SchoolBusViewController.swift */,
+				AE6632D52011D46500B032B4 /* VehicleLocationTableViewCell.swift */,
 				AE2A92491FD97C960006E624 /* AttendanceViewController.swift */,
 				AE2A924B1FD97CB30006E624 /* SyllabusTrackerViewController.swift */,
 				AE2A924D1FD97CD00006E624 /* AssignmentViewController.swift */,
@@ -219,6 +237,8 @@
 				AE7557041FDA531C000F2178 /* HomeVC.swift */,
 				AE7557031FDA531C000F2178 /* MenuViewController.swift */,
 				AE7557051FDA531D000F2178 /* PlayVC.swift */,
+				AE324D7B2032E2C300F53E68 /* APIRequest.swift */,
+				AE324D792032E2B400F53E68 /* NetworkManager.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -373,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED0B3DC1FE3B39B00E2D6C1 /* Drivermen.png in Resources */,
+				AE9DD1C42010A23C00EA010F /* GoogleService-Info.plist in Resources */,
 				AE2A92201FD97B360006E624 /* LaunchScreen.storyboard in Resources */,
 				AE2A921D1FD97B360006E624 /* Assets.xcassets in Resources */,
 				AE2A921B1FD97B360006E624 /* Main.storyboard in Resources */,
@@ -407,10 +428,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MoschoollingApp/Pods-MoschoollingApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CVCalendar/CVCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CVCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,11 +582,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE324D7A2032E2B400F53E68 /* NetworkManager.swift in Sources */,
 				AE2A92461FD97C5E0006E624 /* LoginViewController.swift in Sources */,
+				AE6632D62011D46500B032B4 /* VehicleLocationTableViewCell.swift in Sources */,
 				AE2A924E1FD97CD00006E624 /* AssignmentViewController.swift in Sources */,
 				AE2A92181FD97B360006E624 /* ViewController.swift in Sources */,
 				AE2A92441FD97C530006E624 /* AccessCodeViewController.swift in Sources */,
 				AE7557071FDA531D000F2178 /* MenuViewController.swift in Sources */,
+				AE9DD1C02010A1A300EA010F /* UserDetail.swift in Sources */,
+				AE9DD1C22010A1DE00EA010F /* DriverData.swift in Sources */,
 				AE2A924C1FD97CB30006E624 /* SyllabusTrackerViewController.swift in Sources */,
 				AE7557061FDA531D000F2178 /* BaseViewController.swift in Sources */,
 				AE6667881FE40C14009A42F7 /* AssignmentTableViewCell.swift in Sources */,
@@ -567,6 +600,7 @@
 				AE7557081FDA531D000F2178 /* HomeVC.swift in Sources */,
 				AE7557011FDA4E16000F2178 /* AcademicViewController.swift in Sources */,
 				AE2A924A1FD97C960006E624 /* AttendanceViewController.swift in Sources */,
+				AE324D7C2032E2C300F53E68 /* APIRequest.swift in Sources */,
 				AE7557091FDA531D000F2178 /* PlayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -675,6 +709,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gaganjoshi/Desktop/Moscholling/MoschoollingApp/Moschooling-Bridge-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -724,6 +759,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gaganjoshi/Desktop/Moscholling/MoschoollingApp/Moschooling-Bridge-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -738,8 +774,9 @@
 				DEVELOPMENT_TEAM = UWRJNNALTK;
 				INFOPLIST_FILE = MoschoollingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Moschoolling.MoschoollingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moschooling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gaganjoshi/Desktop/Moscholling/MoschoollingApp/Moschooling-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -754,8 +791,9 @@
 				DEVELOPMENT_TEAM = UWRJNNALTK;
 				INFOPLIST_FILE = MoschoollingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Moschoolling.MoschoollingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moschooling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gaganjoshi/Desktop/Moscholling/MoschoollingApp/Moschooling-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

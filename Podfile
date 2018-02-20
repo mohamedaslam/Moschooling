@@ -7,6 +7,9 @@ target 'MoschoollingApp' do
 
   # Pods for MoschoollingApp
 pod 'CVCalendar', '~> 1.6.0'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
   target 'MoschoollingAppTests' do
     inherit! :search_paths
     # Pods for testing
